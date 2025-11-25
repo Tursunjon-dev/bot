@@ -1,6 +1,6 @@
 from aiogram import Bot, Dispatcher, executor, types
 
-TOKEN = "BOT_TOKEN_HERE"     # BotFather bergan tokenni shu yerga qo'ying
+TOKEN = "8505355606:AAEWnrgZDr-eSky1bsTboBltoOuTab4eg8U"     # BotFather bergan tokenni shu yerga qo'ying
 ADMIN_ID = 8394905295        # Sizning Telegram ID
 
 bot = Bot(token=TOKEN)
@@ -23,3 +23,4 @@ async def reply_from_admin(msg: types.Message):
 
 if __name__ == "__main__":
     executor.start_polling(dp, skip_updates=True)
+
